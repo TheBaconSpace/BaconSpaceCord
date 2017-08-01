@@ -78,3 +78,146 @@ border-radius: 8px;
 border-radius: 8px;
 
 }
+.avatar-hint{
+   border-radius: 8px; 
+}
+.embed .embed-author-icon {
+    margin-right: 9px;
+    width: 20px;
+    height: 20px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    border-radius: 8%;
+}
+.need-help-modal.deprecated .header {
+    background-color: darkred;
+    border-radius: 5px 5px 0 0;
+    height: 120px;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.form.deprecated .control-group {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.need-help-modal.deprecated a {
+    color: darkred;
+    text-decoration: none;
+    -webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+
+.avatar-profile {
+border-radius: 8%;
+}
+
+.avatar-hint {
+border-radius: 8%;
+}
+
+
+
+.bot-tag{
+    background-color: green;
+    padding: .2em .6em .3em;
+    border-radius: 0;
+    font-size: 75%;
+    font-weight: normal;
+    text-transform: lowercase;
+    vertical-align: middle;
+}
+.bot-tag:first-letter {
+    text-transform: uppercase;
+}
+.bot-tag.bot-tag-invert {
+    background: green;
+    color: white!important;
+    text-transform: uppercase;
+}
+.emoji-picker .premium-promo{
+    display: none;
+}
+
+.connecting .connecting-inner{
+    background-image: url(https://i.imgur.com/MfeQkLJ.gif);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 32px;
+    -webkit-filter: invert(100%);
+}
+#user-profile-modal .empty .empty-icon-friends{
+    display: none;
+}
+#user-profile-modal .empty{
+    background-color: #000;
+}
+#user-profile-modal .empty .empty-text{
+    margin-top: -10px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.5625;
+    text-transform: none;
+}
+
+
+
+.avatar-profile[style*="173449041181409281"]:after {
+    content: "BaconSpaceCord Developer";
+    color: green;
+    font-size: 13px;
+    text-align: left;
+    top: 50%;
+    position: absolute;
+    margin: 11px 0 0 175px;
+    width: 170px;
+}
+
+.avatar-profile[style*="154679003326709761"]:after {
+    content: "BaconSpaceCord Staff";
+    color: green;
+    font-size: 13px;
+    text-align: left;
+    top: 51%;
+    position: absolute;
+    margin: 12px 0 0 175px;
+    width: 170px;
+}
+.avatar-profile[style*="89125338465964032"]:after {
+    content: "BaconSpaceCord Staff";
+    color: green;
+    font-size: 13px;
+    text-align: left;
+    top: 51%;
+    position: absolute;
+    margin: 12px 0 0 175px;
+    width: 170px;
+}
+.avatar-1BXaQj .xsmall-2rXiD4{
+border-radius: 8%;
+}
+.guilds-wrapper .guilds .guild .avatar-small{
+    border-radius: 8%;
+}
+.message-group .mentioned .message-text{
+    border-radius: 8%;
+}
+.channel-members .avatar-small{
+   border-radius: 8%;
+}
+.avatarDefault-3jtQoc, .avatarSpeaking-3teDH6 {
+ border-radius: 8%;
+}
