@@ -1,4 +1,4 @@
-//META{"name":"BaconSpaceCord","description":"Welcome To BaconSpaceCord","author":"Bacon_Space#1756","version":"1.0.0"}*//
+//META{"name":"BaconSpaceCord","description":"Welcome To BaconSpaceCord","author":"Bacon_Space#1756","version":"1.2"}*//
 
 div.message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed{
     display:none!important;
@@ -310,7 +310,7 @@ border-radius: 8%;
     margin: 12px 0 0 175px;
     width: 170px;
 }
-.avatar-profile[style*="106222991515328512"]:after {
+.avatar-profile[style*="121350244909842434"]:after {
     content: "✔ Verified BaconSpaceCord User";
     color: green;
     font-size: 13px;
@@ -320,8 +320,28 @@ border-radius: 8%;
     margin: 12px 0 0 175px;
     width: 170px;
 }
+.avatar-profile[style*="145367010489008128"]:after {
+    content: "✔ Verified BaconSpaceCord User";
+    color: green;
+    font-size: 13px;
+    text-align: left;
+    top: 71%;
+    position: absolute;
+    margin: 12px 0 0 175px;
+    width: 170px;
+}
 .avatar-profile[style*="82157505391624192"]:after {
     content: "✔ Verified BaconSpaceCord User";
+    color: green;
+    font-size: 13px;
+    text-align: left;
+    top: 61%;
+    position: absolute;
+    margin: 12px 0 0 175px;
+    width: 170px;
+}
+.avatar-profile[style*="85454666434879488"]:after {
+    content: "✔ Verified BaconSpaceCord Staff";
     color: green;
     font-size: 13px;
     text-align: left;
@@ -338,4 +358,17 @@ border-radius: 8%;
 }
 .user-popout .body {
     background: darkblue;
+}
+.user-popout .header.streaming {
+    background-color: green;
+    background-image: none;
+    padding: 0;
+}
+.user-popout .header.streaming .live-on-twitch {
+    cursor: pointer;
+    background-color: blue;
+}
+.user-popout .header.streaming .live-on-twitch:hover {
+    cursor: pointer;
+    background-color: darkblue;
 }
