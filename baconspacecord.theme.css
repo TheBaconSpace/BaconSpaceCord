@@ -136,7 +136,7 @@ border-radius: 8%;
     border-radius: 0;
     font-size: 75%;
     font-weight: normal;
-    text-transform: lowercase;
+    text-transform: uppercase;
     vertical-align: middle;
 }
 .bot-tag:first-letter {
@@ -176,18 +176,28 @@ border-radius: 8%;
 
 
 .avatar-profile[style*="173449041181409281"]:after {
-    content: "BaconSpaceCord Developer";
-    color: green;
+    content: "Creator of BaconSpaceCord";
+    color: red;
     font-size: 13px;
     text-align: left;
-    top: 50%;
+    top: 60%;
     position: absolute;
     margin: 11px 0 0 175px;
     width: 170px;
 }
 
 .avatar-profile[style*="154679003326709761"]:after {
-    content: "BaconSpaceCord Staff";
+    content: "🙈 BaconSpaceCord Staff";
+    color: green;
+    font-size: 13px;
+    text-align: left;
+    top: 61%;
+    position: absolute;
+    margin: 12px 0 0 175px;
+    width: 170px;
+}
+.avatar-profile[style*="89125338465964032"]:after {
+    content: "🙈 BaconSpaceCord Staff";
     color: green;
     font-size: 13px;
     text-align: left;
@@ -196,11 +206,24 @@ border-radius: 8%;
     margin: 12px 0 0 175px;
     width: 170px;
 }
-.avatar-profile[style*="89125338465964032"]:after {
-    content: "BaconSpaceCord Staff";
+.avatar-profile[style*="280010068823506944"]:after {
+    content: "BaconSpaceCord Bot";
     color: green;
     font-size: 13px;
     text-align: left;
+    top: 61%;
+    position: absolute;
+    margin: 12px 0 0 175px;
+    width: 170px;
+}
+
+
+
+.avatar-profile[style*="162691713582759936"]:after {
+    content: "🙈 BaconSpaceCord Staff";
+    color: green;
+    font-size: 13px;
+    text-align: bottom;
     top: 51%;
     position: absolute;
     margin: 12px 0 0 175px;
@@ -220,4 +243,99 @@ border-radius: 8%;
 }
 .avatarDefault-3jtQoc, .avatarSpeaking-3teDH6 {
  border-radius: 8%;
+}
+.status {
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.status-online {
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+.status-dnd {
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+.guilds-wrapper .guilds .friends-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/89576a4bb71f927eb20e8aef987b499b.svg);
+    background-size: 32px 28px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+/** Verified User's ***/ 
+
+.avatar-profile[style*="100128983483432960"]:after {
+    content: "✔ Verified BaconSpaceCord User";
+    color: green;
+    font-size: 13px;
+    text-align: left;
+    top: 61%;
+    position: absolute;
+    margin: 12px 0 0 175px;
+    width: 170px;
+}
+.avatar-profile[style*="189143251180060672"]:after {
+    content: "✔ Verified BaconSpaceCord User";
+    color: green;
+    font-size: 13px;
+    text-align: left;
+    top: 61%;
+    position: absolute;
+    margin: 12px 0 0 175px;
+    width: 170px;
+}
+.avatar-profile[style*="106222991515328512"]:after {
+    content: "✔ Verified BaconSpaceCord User";
+    color: green;
+    font-size: 13px;
+    text-align: left;
+    top: 61%;
+    position: absolute;
+    margin: 12px 0 0 175px;
+    width: 170px;
+}
+.avatar-profile[style*="106222991515328512"]:after {
+    content: "✔ Verified BaconSpaceCord User";
+    color: green;
+    font-size: 13px;
+    text-align: left;
+    top: 61%;
+    position: absolute;
+    margin: 12px 0 0 175px;
+    width: 170px;
+}
+.avatar-profile[style*="82157505391624192"]:after {
+    content: "✔ Verified BaconSpaceCord User";
+    color: green;
+    font-size: 13px;
+    text-align: left;
+    top: 61%;
+    position: absolute;
+    margin: 12px 0 0 175px;
+    width: 170px;
+}
+.avatar-popout {
+    width: 90px;
+    height: 90px;
+    background-size: 90px 90px;
+    border-radius: 8%;
+}
+.user-popout .body {
+    background: darkblue;
 }
