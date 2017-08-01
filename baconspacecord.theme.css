@@ -1,0 +1,80 @@
+//META{"name":"BaconSpaceCord","description":"Welcome To BaconSpaceCord","author":"Bacon_Space#1756","version":"1.0.0"}*//
+
+div.message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed{
+    display:none!important;
+}
+}
+.avatar-large {
+    left: 8px
+}
+.theme-dark .message-group .comment .markup .mention:hover {
+    background-color: yellow;
+}
+    .embed .embed-provider{
+    color:orange !important;
+    } 
+    .embed .embed-title+.embed-description{
+    color:orange !important;
+    } 
+    
+    .embed .embed-title{
+    color:red !important;
+    }
+    .chat>.title-wrap>.title {
+     color:yellow !important;
+     color:transparent 
+    }
+.message-group h2 .timestamp {
+    color: yellow;
+    font-size: 0.75rem;
+    letter-spacing: 0;
+    font-weight: 400;
+    text-transform: none;
+    margin-left: 6px;
+}
+.protip {
+    color: green;
+
+}
+.a {
+    color: green;
+
+}
+.itemBrand-mC9YR4 {
+    color: yellow;
+}
+.itemBrandSelected-3LxxzT {
+    color: #fff;
+    background-color: yellow;
+}
+
+
+.message-group .mentioned .message-text:after {
+    position: absolute;
+    top: 0;
+    left: -6px;
+    bottom: 0;
+    width: 2px;
+    background: ;
+    border-left: 4px solid yellow;
+    border-radius: 2px 0 0 2px;
+}
+.theme-dark .message-group .embed-wrapper .embed-color-pill {
+    background-color: lightblue;
+}
+
+.message-group .avatar-large {
+border-radius: 8px;
+}
+.avatar-small {
+border-radius: 8px;
+}
+.avatar-popout {
+border-radius: 8px;
+}
+
+
+.avatar-xxlarge {
+border-radius: 8px;
+
+}
